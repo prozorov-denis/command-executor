@@ -1,0 +1,25 @@
+{
+  "name": "command-executor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prozorov-denis/command-executor.git"
+  },
+  "author": "Denis Prozorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prozorov-denis/command-executor/issues"
+  },
+  "homepage": "https://github.com/prozorov-denis/command-executor#readme",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
