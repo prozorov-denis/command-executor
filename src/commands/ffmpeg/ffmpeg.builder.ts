@@ -1,4 +1,4 @@
-import { ICommandExec } from '../../core/executor/command.types';
+import { ICommandExecFfmpeg } from './ffmpeg.types';
 
 export class FfmpegBuilder {
     private inputPath?: string;
@@ -24,7 +24,7 @@ export class FfmpegBuilder {
         return this;
     }
 
-    build(): ICommandExec {
+    build(): ICommandExecFfmpeg {
         if (!this.inputPath) {
             throw new Error('inputPath must be set');
         }
@@ -44,7 +44,8 @@ export class FfmpegBuilder {
 
         return {
             command: 'ffmpeg',
-            args
+            args,
+            outputPath: this.outputPath
         };
     }
 }
