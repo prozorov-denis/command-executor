@@ -26,7 +26,7 @@ export class FfmpegBuilder {
 
     build(): ICommandExec {
         if (!this.inputPath) {
-            throw new Error('inpuPath must be set');
+            throw new Error('inputPath must be set');
         }
 
         if (!this.outputPath) {
