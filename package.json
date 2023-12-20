@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/prozorov-denis/command-executor#readme",
   "dependencies": {
-    "inquirer": "^9.2.12"
+    "inquirer": "^8.2.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^8.2.0"
   }
 }
